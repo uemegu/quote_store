@@ -8,9 +8,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.join(__dirname, '..');
 
-const publicQuotesPath = path.join(rootDir, 'public', 'quotes.json');
 const docsQuotesPath = path.join(rootDir, 'docs', 'quotes.json');
-const imagesDir = path.join(rootDir, 'public', 'images');
+const imagesDir = path.join(rootDir, 'docs', 'images');
 
 function ensureDirectories() {
   if (!fs.existsSync(imagesDir)) {
@@ -23,8 +22,8 @@ function ensureDirectories() {
 }
 
 function loadQuotes() {
-  if (fs.existsSync(publicQuotesPath)) {
-    const json = fs.readFileSync(publicQuotesPath, 'utf-8');
+  if (fs.existsSync(docsQuotesPath)) {
+    const json = fs.readFileSync(docsQuotesPath, 'utf-8');
     if (json.trim() === '') return [];
     try {
       const data = JSON.parse(json);
@@ -72,7 +71,6 @@ async function main() {
   quotes.push(newRecord);
 
   const jsonContent = JSON.stringify(quotes, null, 2) + '\n';
-  fs.writeFileSync(publicQuotesPath, jsonContent, 'utf-8');
   fs.writeFileSync(docsQuotesPath, jsonContent, 'utf-8');
 
   console.log(`Successfully added new quote ID ${newId}`);

@@ -36,7 +36,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
           # 追加された画像とJSONをステージング
-          git add public/quotes.json docs/quotes.json public/images/
+          git add docs/quotes.json docs/images/
           
           # 変更がない場合は正常終了
           git diff --cached --quiet && echo "No changes to commit" && exit 0

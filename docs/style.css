@@ -103,15 +103,15 @@ body {
   font-weight: 600;
   letter-spacing: 2px;
   background: linear-gradient(135deg, #fff 0%, #cbd5e1 100%);
-  -webkit-background-clip: text;
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .logo span {
   background: linear-gradient(135deg, var(--accent-1) 0%, var(--accent-3) 100%);
-  -webkit-background-clip: text;
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 

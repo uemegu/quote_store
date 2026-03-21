@@ -1,4 +1,4 @@
-import { getQuoteByIndex, formatQuoteForDisplay } from '../public/js/formatter.js';
+import { getQuoteByIndex, formatQuoteForDisplay } from '../docs/js/formatter.js';
 
 describe('Frontend format logic', () => {
   describe('getQuoteByIndex', () => {
