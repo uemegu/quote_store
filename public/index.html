@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Quote Store</title>
+  <meta name="description" content="1日1回、クスッとする格言とAI画像を生成して発信するギャラリー。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-effects">
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+    <div class="glow glow-3"></div>
+  </div>
+
+  <main class="container">
+    <header class="header">
+      <h1 class="logo">Quote <span>Store</span></h1>
+      <p class="subtitle">Daily AI Inspiration</p>
+    </header>
+
+    <section id="quote-card" class="glass-card hidden">
+      <div class="image-container">
+        <div class="image-placeholder" id="image-placeholder"></div>
+        <img id="quote-image" src="" alt="格言のイメージ画像" class="quote-image hidden">
+        <div class="image-overlay"></div>
+      </div>
+      
+      <div class="content-container">
+        <div class="quote-icon">❝</div>
+        <h2 id="quote-ja" class="quote-ja">読込中...</h2>
+        <p id="quote-en" class="quote-en">Loading...</p>
+        <div class="author-barrier"></div>
+        <p id="quote-author" class="quote-author">- System -</p>
+      </div>
+    </section>
+
+    <div id="controls" class="controls hidden">
+      <button id="btn-prev" class="glass-btn btn-icon">◀</button>
+      <span id="page-indicator" class="page-indicator">0 / 0</span>
+      <button id="btn-next" class="glass-btn btn-icon">▶</button>
+    </div>
+  </main>
+
+  <script src="js/app.js" type="module"></script>
+</body>
+</html>
