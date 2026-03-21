@@ -1,31 +1,29 @@
 import { jest } from '@jest/globals';
 
-// GoogleGenerativeAIのモック
-jest.unstable_mockModule('@google/generative-ai', () => {
+// GoogleGenAIのモック
+jest.unstable_mockModule('@google/genai', () => {
   return {
-    GoogleGenerativeAI: jest.fn().mockImplementation(() => {
+    GoogleGenAI: jest.fn().mockImplementation(() => {
       return {
-        getGenerativeModel: jest.fn().mockReturnValue({
+        models: {
           generateContent: jest.fn().mockResolvedValue({
-            response: {
-              text: () => JSON.stringify({
-                text: 'テストの格言',
-                english: 'Test quote',
-                author: 'テスト太郎',
-                author_en: 'Test Taro'
-              }),
-              candidates: [
-                {
-                  content: {
-                    parts: [
-                      { inlineData: { mimeType: 'image/png', data: 'YmFzZTY0dGVzdA==' } }
-                    ]
-                  }
-                } // 疑似画像データ
-              ]
-            }
+            text: JSON.stringify({
+              text: 'テストの格言',
+              english: 'Test quote',
+              author: 'テスト太郎',
+              author_en: 'Test Taro'
+            }),
+            candidates: [
+              {
+                content: {
+                  parts: [
+                    { inlineData: { data: 'YmFzZTY0dGVzdA==' } }
+                  ]
+                }
+              }
+            ]
           })
-        })
+        }
       };
     })
   };

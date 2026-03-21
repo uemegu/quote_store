@@ -1,4 +1,4 @@
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import { GoogleGenAI } from '@google/genai';
 
 /**
  * Gemini APIを利用してクスッとする格言を生成する
@@ -10,9 +10,7 @@ export async function generateQuote(apiKey) {
     throw new Error('GEMINI_API_KEY is not set');
   }
 
-  const genAI = new GoogleGenerativeAI(apiKey);
-  // 要件で指定されたモデル名
-  const model = genAI.getGenerativeModel({ model: 'gemini-3-flash-preview' });
+  const ai = new GoogleGenAI({ apiKey });
 
   const prompt = `
 ちょっとクスッとする格言を**1個だけ**作って下さい。
@@ -30,8 +28,11 @@ export async function generateQuote(apiKey) {
 - author_en: 架空の作者名 (英語)
 `.trim();
 
-  const result = await model.generateContent(prompt);
-  let responseText = result.response.text().trim();
+  const response = await ai.models.generateContent({
+    model: 'gemini-3-flash-preview',
+    contents: prompt,
+  });
+  let responseText = response.text ? response.text.trim() : '';
 
   // もしマークダウンブロックがあれば除去
   responseText = responseText.replace(/^```json\s*/, '').replace(/```$/, '').trim();

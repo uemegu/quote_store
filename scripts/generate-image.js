@@ -1,4 +1,4 @@
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import { GoogleGenAI } from '@google/genai';
 import fs from 'fs';
 import path from 'path';
 
@@ -14,8 +14,7 @@ export async function generateImage(apiKey, quoteText, savePath) {
     throw new Error('GEMINI_API_KEY is not set');
   }
 
-  const genAI = new GoogleGenerativeAI(apiKey);
-  // 要件で指定されたモデル名。画像生成用
+  const ai = new GoogleGenAI({ apiKey });
   const modelName = 'gemini-3.1-flash-image-preview';
   
   const prompt = `
@@ -30,42 +29,23 @@ ${quoteText}
   `.trim();
 
   try {
-    // Generative AI SDKに画像生成専用メソッドがあればそれを使用し、なければ一般的なgenerateContentを使用する
-    // 現在のSDKの使用感としては modelに対して直接呼び出す想定
-    const model = genAI.getGenerativeModel({ model: modelName });
-
-    // Node.js SDKの新しい画像生成APIを想定
-    // generateImagesが未実装のSDKバージョンの場合は、通常のgenerateContentで画像のベース64を受け取る想定
-    if (typeof model.generateImages === 'function') {
-      const response = await model.generateImages({ prompt, numberOfImages: 1, outputMimeType: 'image/png' });
-      const base64Image = response.images[0].image.base64;
-      if (base64Image) {
-        fs.writeFileSync(savePath, Buffer.from(base64Image, 'base64'));
+    const response = await ai.models.generateContent({
+      model: modelName,
+      contents: prompt,
+    });
+    
+    // API仕様に基づき、partsを走査して画像データ(base64)を抽出
+    for (const part of response.candidates[0].content.parts) {
+      if (part.inlineData) {
+        const imageData = part.inlineData.data;
+        const buffer = Buffer.from(imageData, "base64");
+        fs.writeFileSync(savePath, buffer);
+        console.log("Image saved as", savePath);
         return savePath;
       }
     }
 
-    // fallback to normal generateContent
-    const result = await model.generateContent(prompt);
-    
-    // レスポンスから画像パートを検索
-    const candidate = result.response.candidates?.[0];
-    const imagePart = candidate?.content?.parts?.find(p => p.inlineData && p.inlineData.mimeType.startsWith('image/'));
-
-    if (imagePart && imagePart.inlineData) {
-      const base64Data = imagePart.inlineData.data;
-      fs.writeFileSync(savePath, Buffer.from(base64Data, 'base64'));
-      return savePath;
-    } else {
-      console.warn('レスポンス内にインライン画像データが見つかりませんでした。テキストとして保存を試みます（Base64文字列等）。');
-      let text = result.response.text().trim();
-      // もしテキストのみ返ってきて、そこがBase64ならば
-      if (text && text.length > 100 && !text.includes(' ') && !text.includes('\\n')) {
-          fs.writeFileSync(savePath, Buffer.from(text, 'base64'));
-          return savePath;
-      }
-      throw new Error('Image data not found in response');
-    }
+    throw new Error('Image data not found in response parts');
   } catch (error) {
     console.error('Failed to generate image:', error.message);
     throw error;
