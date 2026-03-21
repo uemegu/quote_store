@@ -14,5 +14,13 @@
     "author": "三日坊主のプロ",
     "author_en": "Professional Quitter",
     "image_path": "images/q-002.png"
+  },
+  {
+    "id": "q-003",
+    "text": "昨日の自分を倒そうと意気込んだが、昨日の自分は「明日やればいいよ」と優しく微笑んで私を寝かしつけた。",
+    "english": "I was determined to defeat my yesterday's self, but he smiled kindly, told me 'Just do it tomorrow,' and tucked me into bed.",
+    "author": "ネムル・デ・アロウ",
+    "author_en": "Nemuru de Arou",
+    "image_path": "images/q-003.png"
   }
 ]
