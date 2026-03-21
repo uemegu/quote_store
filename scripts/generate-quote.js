@@ -27,6 +27,7 @@ export async function generateQuote(apiKey) {
 - text: 日本語の格言
 - english: 英語の格言
 - author: 架空の作者名 (日本語)
+- author_en: 架空の作者名 (英語)
 `.trim();
 
   const result = await model.generateContent(prompt);
@@ -40,7 +41,8 @@ export async function generateQuote(apiKey) {
     return {
       text: data.text || '謎の格言が生成されました',
       english: data.english || 'A mysterious quote was generated',
-      author: data.author || '不明'
+      author: data.author || '不明',
+      author_en: data.author_en || 'Unknown'
     };
   } catch (error) {
     console.error('Failed to parse quote JSON:', responseText);

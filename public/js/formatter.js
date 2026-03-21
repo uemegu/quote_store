@@ -20,6 +20,7 @@ export function formatQuoteForDisplay(quote) {
       text: 'まだ格言がありません。明日の更新をお待ちください。',
       english: 'No quotes available yet.',
       author: 'System',
+      author_en: 'System',
       image_path: ''
     };
   }
@@ -27,6 +28,7 @@ export function formatQuoteForDisplay(quote) {
     text: quote.text || '無言',
     english: quote.english || 'No words',
     author: quote.author ? quote.author : '不明',
+    author_en: quote.author_en ? quote.author_en : 'Unknown',
     image_path: quote.image_path || ''
   };
 }

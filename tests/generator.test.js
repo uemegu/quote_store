@@ -11,7 +11,8 @@ jest.unstable_mockModule('@google/generative-ai', () => {
               text: () => JSON.stringify({
                 text: 'テストの格言',
                 english: 'Test quote',
-                author: 'テスト太郎'
+                author: 'テスト太郎',
+                author_en: 'Test Taro'
               }),
               candidates: [
                 {
@@ -40,6 +41,7 @@ describe('Generator Scripts', () => {
     expect(result).toHaveProperty('text', 'テストの格言');
     expect(result).toHaveProperty('english', 'Test quote');
     expect(result).toHaveProperty('author', 'テスト太郎');
+    expect(result).toHaveProperty('author_en', 'Test Taro');
   });
   
   it('throws an error if API key is missing', async () => {

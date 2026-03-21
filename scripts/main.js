@@ -65,6 +65,7 @@ async function main() {
     text: quoteData.text,
     english: quoteData.english,
     author: quoteData.author,
+    author_en: quoteData.author_en,
     image_path: `images/${imageFilename}`
   };
 

@@ -73,7 +73,7 @@ class App {
       // データの流し込み
       this.ui.textJa.textContent = displayData.text;
       this.ui.textEn.textContent = displayData.english;
-      this.ui.author.textContent = `- ${displayData.author} -`;
+      this.ui.author.textContent = `- ${displayData.author} (${displayData.author_en}) -`;
 
       // 画像のハンドリング
       if (displayData.image_path) {
