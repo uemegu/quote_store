@@ -59,8 +59,12 @@ async function main() {
   await generateImage(apiKey, quoteData.text, imageSavePath);
   console.log('Image saved to:', imageSavePath);
 
+  const today = new Date();
+  const dateStr = `${today.getFullYear()}/${today.getMonth() + 1}/${today.getDate()}`;
+
   const newRecord = {
     id: newId,
+    date: dateStr,
     text: quoteData.text,
     english: quoteData.english,
     author: quoteData.author,

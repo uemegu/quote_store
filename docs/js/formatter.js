@@ -25,6 +25,7 @@ export function formatQuoteForDisplay(quote) {
     };
   }
   return {
+    date: quote.date || '',
     text: quote.text || '無言',
     english: quote.english || 'No words',
     author: quote.author ? quote.author : '不明',

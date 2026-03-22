@@ -243,6 +243,15 @@ body {
   letter-spacing: 1px;
 }
 
+.quote-date {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  font-weight: 300;
+  margin-top: 8px;
+  letter-spacing: 1px;
+}
+
 /* Controls */
 .controls {
   display: flex;

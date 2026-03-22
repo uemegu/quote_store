@@ -12,6 +12,7 @@ class App {
       textJa: document.getElementById('quote-ja'),
       textEn: document.getElementById('quote-en'),
       author: document.getElementById('quote-author'),
+      dateText: document.getElementById('quote-date'),
       img: document.getElementById('quote-image'),
       imgPlaceholder: document.getElementById('image-placeholder'),
       btnPrev: document.getElementById('btn-prev'),
@@ -74,6 +75,13 @@ class App {
       this.ui.textJa.textContent = displayData.text;
       this.ui.textEn.textContent = displayData.english;
       this.ui.author.textContent = `- ${displayData.author} (${displayData.author_en}) -`;
+
+      if (displayData.date) {
+        this.ui.dateText.textContent = displayData.date;
+        this.ui.dateText.style.display = 'block';
+      } else {
+        this.ui.dateText.style.display = 'none';
+      }
 
       // 画像のハンドリング
       if (displayData.image_path) {
