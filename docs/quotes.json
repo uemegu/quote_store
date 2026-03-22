@@ -25,5 +25,14 @@
     "author": "ネムル・デ・アロウ",
     "author_en": "Nemuru de Arou",
     "image_path": "images/q-003.png"
+  },
+  {
+    "id": "q-004",
+    "date": "2026/3/22",
+    "text": "不可能を可能にするのは努力だが、可能を不可能にするのは大体いつも布団だ。",
+    "english": "Effort makes the impossible possible, but it is usually the futon that makes the possible impossible.",
+    "author": "フトン・デカルト",
+    "author_en": "Futon Descartes",
+    "image_path": "images/q-004.png"
   }
 ]
