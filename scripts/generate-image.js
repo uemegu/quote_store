@@ -32,6 +32,11 @@ ${quoteText}
     const response = await ai.models.generateContent({
       model: modelName,
       contents: prompt,
+      config: {
+        imageConfig: {
+          aspectRatio: '9:16'
+        }
+      }
     });
     
     // API仕様に基づき、partsを走査して画像データ(base64)を抽出
