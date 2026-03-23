@@ -34,5 +34,14 @@
     "author": "フトン・デカルト",
     "author_en": "Futon Descartes",
     "image_path": "images/q-004.png"
+  },
+  {
+    "id": "q-005",
+    "date": "2026/3/23",
+    "text": "痩せるためにスクワットを始めたが、3回目で「このままでは膝が死ぬ。人類にはまだ早すぎた運動だ」と悟りを開いた。",
+    "english": "I started doing squats to lose weight, but by the third rep, I realized, \"At this rate, my knees will die. This exercise is still too early for humanity.\"",
+    "author": "膝の代弁者",
+    "author_en": "The Knee Spokesman",
+    "image_path": "images/q-005.png"
   }
 ]
