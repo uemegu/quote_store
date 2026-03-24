@@ -43,5 +43,14 @@
     "author": "膝の代弁者",
     "author_en": "The Knee Spokesman",
     "image_path": "images/q-005.png"
+  },
+  {
+    "id": "q-006",
+    "date": "2026/3/24",
+    "text": "昨日の自分を超えようとしたが、昨日の自分も「明日の自分に任せる」と言って逃げ出す準備をしていた。",
+    "english": "I tried to surpass my yesterday-self, but my yesterday-self was already busy preparing to run away, saying, 'I'll leave it to my tomorrow-self.'",
+    "author": "先延ばし界の貴公子・アス・ノビット",
+    "author_en": "Asu Nobit, Prince of Procrastination",
+    "image_path": "images/q-006.png"
   }
 ]
