@@ -52,5 +52,14 @@
     "author": "先延ばし界の貴公子・アス・ノビット",
     "author_en": "Asu Nobit, Prince of Procrastination",
     "image_path": "images/q-006.png"
+  },
+  {
+    "id": "q-007",
+    "date": "2026/3/25",
+    "text": "やる気スイッチを探し続けて30年、どうやら私のモデルは「手動」だったらしい。",
+    "english": "I've been searching for my motivation switch for 30 years, only to realize my model is manual.",
+    "author": "窓際・フルスロットル",
+    "author_en": "Madogiwa Full-Throttle",
+    "image_path": "images/q-007.png"
   }
 ]
