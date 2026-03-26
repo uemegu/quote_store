@@ -61,5 +61,14 @@
     "author": "窓際・フルスロットル",
     "author_en": "Madogiwa Full-Throttle",
     "image_path": "images/q-007.png"
+  },
+  {
+    "id": "q-008",
+    "date": "2026/3/26",
+    "text": "「明日から本気出す」を365回繰り返せば、それはもう立派なライフスタイルである。",
+    "english": "Repeating 'I'll get serious tomorrow' 365 times is no longer procrastination—it's a lifestyle.",
+    "author": "延期 太郎",
+    "author_en": "Taro Enki",
+    "image_path": "images/q-008.png"
   }
 ]
