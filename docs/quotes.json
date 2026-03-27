@@ -70,5 +70,14 @@
     "author": "延期 太郎",
     "author_en": "Taro Enki",
     "image_path": "images/q-008.png"
+  },
+  {
+    "id": "q-009",
+    "date": "2026/3/27",
+    "text": "「明日から本気出す」を365回繰り返せば、それは立派な「伝統芸能」である。",
+    "english": "If you repeat \"I'll start trying tomorrow\" 365 times, it becomes a magnificent \"traditional art.\"",
+    "author": "先延ばしの家元",
+    "author_en": "The Grand Master of Procrastination",
+    "image_path": "images/q-009.png"
   }
 ]
