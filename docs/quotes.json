@@ -79,5 +79,14 @@
     "author": "先延ばしの家元",
     "author_en": "The Grand Master of Procrastination",
     "image_path": "images/q-009.png"
+  },
+  {
+    "id": "q-010",
+    "date": "2026/3/28",
+    "text": "「とりあえず寝る」という行為は、人生における『再起動』ではない。単なる『一旦保存して終了』である。しかも、保存に失敗していることが多い。",
+    "english": "Going to bed 'for now' is not a 'system reboot' of life. It is merely a 'save and quit,' and more often than not, the save file is corrupted.",
+    "author": "ネムリ・タイ・デ・ゴザール",
+    "author_en": "Nemuri Tai De Gosaru",
+    "image_path": "images/q-010.png"
   }
 ]
