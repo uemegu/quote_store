@@ -106,5 +106,14 @@
     "author": "セルフ甘やかしの達人",
     "author_en": "Master of Self-Indulgence",
     "image_path": "images/q-012.png"
+  },
+  {
+    "id": "q-013",
+    "date": "2026/3/31",
+    "text": "10分間で3回も冷蔵庫を開けるのは、食べ物を探しているのではない。奇跡を待っているのだ。",
+    "english": "Opening the fridge for the third time in ten minutes isn't looking for food; it's waiting for a miracle.",
+    "author": "オナカ・スイタ",
+    "author_en": "Onaka Suita",
+    "image_path": "images/q-013.png"
   }
 ]
