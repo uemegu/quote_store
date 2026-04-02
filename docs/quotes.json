@@ -115,5 +115,14 @@
     "author": "オナカ・スイタ",
     "author_en": "Onaka Suita",
     "image_path": "images/q-013.png"
+  },
+  {
+    "id": "q-014",
+    "date": "2026/4/2",
+    "text": "「ダイエットとは『今日の自分』が『明日の自分』にバトンを渡すリレーだが、明日の自分がスタジアムに現れた試しがない。」",
+    "english": "A diet is a relay race where 'today's me' passes the baton to 'tomorrow's me,' but tomorrow's me has never once actually shown up at the stadium.",
+    "author": "万年補欠のダイエッター 痩せ・タイガ",
+    "author_en": "Yase Taiga, The Eternal Benchwarmer Dieter",
+    "image_path": "images/q-014.png"
   }
 ]
