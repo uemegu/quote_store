@@ -151,5 +151,14 @@
     "author": "ネル・アス",
     "author_en": "Nel Asu",
     "image_path": "images/q-017.png"
+  },
+  {
+    "id": "q-018",
+    "date": "2026/4/5",
+    "text": "人生という名のRPGで一番難しいのは、ラスボスを倒すことではなく、『朝、布団から出ること』というチュートリアルを毎日クリアすることである。",
+    "english": "The hardest part of the RPG called Life is not defeating the final boss, but completing the daily tutorial known as 'Getting out of bed in the morning.'",
+    "author": "二度寝の聖者",
+    "author_en": "The Saint of Sleeping In",
+    "image_path": "images/q-018.png"
   }
 ]
