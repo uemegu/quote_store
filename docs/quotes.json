@@ -160,5 +160,14 @@
     "author": "二度寝の聖者",
     "author_en": "The Saint of Sleeping In",
     "image_path": "images/q-018.png"
+  },
+  {
+    "id": "q-019",
+    "date": "2026/4/6",
+    "text": "「誰も自分に関心がない」と絶望した時は、思い切って税金を滞納してみるといい。国家という巨大な組織が、驚くほど情熱的に君を追いかけ回してくれるようになる。",
+    "english": "If you are ever depressed thinking that nobody cares about you, try missing a tax payment. A massive organization called the State will start chasing you with surprising passion.",
+    "author": "追詰 逃男",
+    "author_en": "Nigero Oitsume",
+    "image_path": "images/q-019.png"
   }
 ]
