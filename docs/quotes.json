@@ -178,5 +178,14 @@
     "author": "アス・カラ・ホンキダス",
     "author_en": "Arthur K. Honkidas",
     "image_path": "images/q-020.png"
+  },
+  {
+    "id": "q-021",
+    "date": "2026/4/8",
+    "text": "「やる気」とは自らの意思で出すものではない。深夜2時に突然発生し、翌朝の5時には跡形もなく消え去る、極めて局地的な気象現象である。",
+    "english": "'Motivation' is not something you summon at will. It is a localized meteorological phenomenon that suddenly develops at 2 AM and vanishes without a trace by 5 AM.",
+    "author": "慢性的な寝不足の詩人",
+    "author_en": "The Chronically Sleep-Deprived Poet",
+    "image_path": "images/q-021.png"
   }
 ]
