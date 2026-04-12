@@ -205,5 +205,14 @@
     "author": "先延ばしの権化",
     "author_en": "The Incarnation of Procrastination",
     "image_path": "images/q-023.png"
+  },
+  {
+    "id": "q-024",
+    "date": "2026/4/12",
+    "text": "運動不足を解消するためにジムに入会したが、私の人生で最も多くのカロリーを消費したのは「退会の手続き」だった。",
+    "english": "I joined a gym to get in shape, but the activity that burned the most calories was the process of canceling my membership.",
+    "author": "ジム・カヨワン",
+    "author_en": "Jim Kayowan",
+    "image_path": "images/q-024.png"
   }
 ]
