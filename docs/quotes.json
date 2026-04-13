@@ -214,5 +214,14 @@
     "author": "ジム・カヨワン",
     "author_en": "Jim Kayowan",
     "image_path": "images/q-024.png"
+  },
+  {
+    "id": "q-025",
+    "date": "2026/4/13",
+    "text": "8時間寝ても眠い。4時間寝ても眠い。どうやら問題は睡眠時間ではなく「起きている」という仕様そのものにあるようだ。",
+    "english": "I’m tired after 8 hours of sleep. I’m tired after 4 hours of sleep. It seems the problem isn't the sleep duration, but the very specification of 'being awake'.",
+    "author": "布団から出られない哲学者",
+    "author_en": "The Philosopher Who Can't Leave the Futon",
+    "image_path": "images/q-025.png"
   }
 ]
