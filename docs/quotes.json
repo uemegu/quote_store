@@ -223,5 +223,14 @@
     "author": "布団から出られない哲学者",
     "author_en": "The Philosopher Who Can't Leave the Futon",
     "image_path": "images/q-025.png"
+  },
+  {
+    "id": "q-026",
+    "date": "2026/4/14",
+    "text": "「自分へのご褒美」を頻繁に与えすぎると、それはもはやモチベーションの維持ではなく、自分に対する「賄賂」になる。",
+    "english": "When you reward yourself too often, it stops being a way to stay motivated and starts becoming a bribe to yourself.",
+    "author": "誘惑 負太郎",
+    "author_en": "Yuuwaku Maketaro",
+    "image_path": "images/q-026.png"
   }
 ]
