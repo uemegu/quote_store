@@ -232,5 +232,14 @@
     "author": "誘惑 負太郎",
     "author_en": "Yuuwaku Maketaro",
     "image_path": "images/q-026.png"
+  },
+  {
+    "id": "q-027",
+    "date": "2026/4/15",
+    "text": "運動しても痩せないが、食べると確実に太る。この世は「公平」ではないが「正確」である。",
+    "english": "Exercise doesn't guarantee weight loss, but eating guarantees weight gain. The world isn't fair, but it is remarkably precise.",
+    "author": "真理の探究者",
+    "author_en": "The Seeker of Truth",
+    "image_path": "images/q-027.png"
   }
 ]
