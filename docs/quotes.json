@@ -286,5 +286,14 @@
     "author": "先延ばしの錬金術師",
     "author_en": "The Alchemist of Procrastination",
     "image_path": "images/q-032.png"
+  },
+  {
+    "id": "q-033",
+    "date": "2026/4/24",
+    "text": "「あと5分だけ」と二度寝して一瞬で1時間が経過した時、人類は初めてアインシュタインの相対性理論を正しく理解する。",
+    "english": "When you go back to sleep for 'just five more minutes' and an hour passes in an instant, you finally truly understand Einstein's theory of relativity.",
+    "author": "相対的・ネブソク",
+    "author_en": "Sotaiteki Nebusoku",
+    "image_path": "images/q-033.png"
   }
 ]
