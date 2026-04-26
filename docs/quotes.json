@@ -295,5 +295,14 @@
     "author": "相対的・ネブソク",
     "author_en": "Sotaiteki Nebusoku",
     "image_path": "images/q-033.png"
+  },
+  {
+    "id": "q-034",
+    "date": "2026/4/26",
+    "text": "「やればできる」は魔法の言葉だが、実際には「やらなくても死なない」という真実の方が圧倒的に強い。",
+    "english": "'I can do it if I try' is a magical phrase, but in reality, the truth that 'I won't die even if I don't do it' is overwhelmingly stronger.",
+    "author": "怠惰の哲学者・ネム・ルカ",
+    "author_en": "Nem Ruka, Philosopher of Laziness",
+    "image_path": "images/q-034.png"
   }
 ]
