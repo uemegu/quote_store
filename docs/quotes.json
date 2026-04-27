@@ -304,5 +304,14 @@
     "author": "怠惰の哲学者・ネム・ルカ",
     "author_en": "Nem Ruka, Philosopher of Laziness",
     "image_path": "images/q-034.png"
+  },
+  {
+    "id": "q-035",
+    "date": "2026/4/27",
+    "text": "「自分へのご褒美」を買いすぎた結果、その代金を支払うために自分をさらに酷使するという、現代の永久機関。",
+    "english": "The 'treat yourself' cycle is a modern perpetual motion machine: you overwork yourself to pay for the rewards you bought to survive overworking.",
+    "author": "貯金残高ゼロの賢者",
+    "author_en": "The Sage of Zero Balance",
+    "image_path": "images/q-035.png"
   }
 ]
