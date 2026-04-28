@@ -313,5 +313,14 @@
     "author": "貯金残高ゼロの賢者",
     "author_en": "The Sage of Zero Balance",
     "image_path": "images/q-035.png"
+  },
+  {
+    "id": "q-036",
+    "date": "2026/4/28",
+    "text": "「やればできる」という言葉は、「やらなければ無敵」という最強のカードを奪い去る呪文である。",
+    "english": "The phrase \"You can do it if you try\" is a spell that strips away your strongest card: \"I am invincible as long as I don't try.\"",
+    "author": "二度寝 尊",
+    "author_en": "Mikoto Nidone",
+    "image_path": "images/q-036.png"
   }
 ]
