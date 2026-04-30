@@ -331,5 +331,14 @@
     "author": "浪費家 ギルティ",
     "author_en": "Guilty Spender",
     "image_path": "images/q-037.png"
+  },
+  {
+    "id": "q-038",
+    "date": "2026/4/30",
+    "text": "「自分へのご褒美」を頻繁に与えすぎた結果、私という従業員が経営陣（自分）を完全に舐めきっている。",
+    "english": "I have given myself 'rewards' so frequently that the employee known as 'Me' has completely lost all respect for the management.",
+    "author": "福利厚生過剰な哲学者",
+    "author_en": "The Philosopher of Excessive Employee Benefits",
+    "image_path": "images/q-038.png"
   }
 ]
