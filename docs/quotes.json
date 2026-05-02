@@ -349,5 +349,14 @@
     "author": "ご褒美の過剰摂取・佐藤",
     "author_en": "Sato the Reward Overdoser",
     "image_path": "images/q-039.png"
+  },
+  {
+    "id": "q-040",
+    "date": "2026/5/2",
+    "text": "「明日の自分を信じる」という行為の九割は、今の自分による責任転嫁である。",
+    "english": "90% of the act of 'believing in your future self' is merely shifting the blame away from your current self.",
+    "author": "先延ばし・デッドライン",
+    "author_en": "Procrastination Deadline",
+    "image_path": "images/q-040.png"
   }
 ]
