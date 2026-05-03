@@ -13,8 +13,7 @@ export async function generateQuote(apiKey) {
   const ai = new GoogleGenAI({ apiKey });
 
   const prompt = `
-ちょっとクスッとする格言を**1個だけ**作って下さい。
-渾身のネタでお願いします。過去にバズったXの投稿が参考になるかもしれません。
+今日も1日頑張ろうと思える格言を**1個だけ**作って下さい。
 
 ただし、出力はJSON形式のみとし、マークダウンの装飾(\`\`\`json など)は付けずに生のJSONを出力してください。
 以下のキーを含めてください:
