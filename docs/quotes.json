@@ -358,5 +358,14 @@
     "author": "先延ばし・デッドライン",
     "author_en": "Procrastination Deadline",
     "image_path": "images/q-040.png"
+  },
+  {
+    "id": "q-041",
+    "date": "2026/5/4",
+    "text": "新しい靴を履くように、新しい心で今日を歩き出そう。",
+    "english": "Just as you step into new shoes, step into today with a fresh heart.",
+    "author": "羽山 空",
+    "author_en": "Sora Hayama",
+    "image_path": "images/q-041.png"
   }
 ]
