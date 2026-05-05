@@ -367,5 +367,14 @@
     "author": "羽山 空",
     "author_en": "Sora Hayama",
     "image_path": "images/q-041.png"
+  },
+  {
+    "id": "q-042",
+    "date": "2026/5/5",
+    "text": "今日という日は、あなたが未来に贈ることができる、世界で唯一のプレゼントだ。",
+    "english": "Today is the only gift in the world that you can offer to your future self.",
+    "author": "星野 凪沙",
+    "author_en": "Nagisa Hoshino",
+    "image_path": "images/q-042.png"
   }
 ]
