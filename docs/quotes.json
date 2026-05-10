@@ -412,5 +412,14 @@
     "author": "エリアス・ノヴァ",
     "author_en": "Elias Nova",
     "image_path": "images/q-046.png"
+  },
+  {
+    "id": "q-047",
+    "date": "2026/5/10",
+    "text": "今日という真っ白なキャンバスに、あなただけの色をひと塗り。それが未来を輝かせる最高の一歩になる。",
+    "english": "Add a single stroke of your own color to the blank canvas of today. That will be the finest step to brighten your future.",
+    "author": "湊 陽葵",
+    "author_en": "Haruki Minato",
+    "image_path": "images/q-047.png"
   }
 ]
