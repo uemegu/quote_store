@@ -430,5 +430,14 @@
     "author": "暁 遥斗",
     "author_en": "Haruto Akatsuki",
     "image_path": "images/q-048.png"
+  },
+  {
+    "id": "q-049",
+    "date": "2026/5/12",
+    "text": "今日の光は、あなたの一歩から生まれる。",
+    "english": "Today's light is born from your first step.",
+    "author": "陽向 奏",
+    "author_en": "Kanade Hinata",
+    "image_path": "images/q-049.png"
   }
 ]
