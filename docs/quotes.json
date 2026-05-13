@@ -439,5 +439,14 @@
     "author": "陽向 奏",
     "author_en": "Kanade Hinata",
     "image_path": "images/q-049.png"
+  },
+  {
+    "id": "q-050",
+    "date": "2026/5/13",
+    "text": "昨日を悔やむより、今日を祝おう。あなたの鼓動は、新しい物語の始まりだ。",
+    "english": "Celebrate today rather than regretting yesterday. Your heartbeat is the start of a new story.",
+    "author": "暁の語り部、レオ・スタリス",
+    "author_en": "Leo Staris, Teller of Dawn",
+    "image_path": "images/q-050.png"
   }
 ]
