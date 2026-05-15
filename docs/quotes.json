@@ -448,5 +448,14 @@
     "author": "暁の語り部、レオ・スタリス",
     "author_en": "Leo Staris, Teller of Dawn",
     "image_path": "images/q-050.png"
+  },
+  {
+    "id": "q-051",
+    "date": "2026/5/15",
+    "text": "今日という真っ白な地図に、あなただけの確かな一歩を刻もう。",
+    "english": "On the blank map of today, carve your own certain step.",
+    "author": "凪原 奏",
+    "author_en": "Kanade Nagihara",
+    "image_path": "images/q-051.png"
   }
 ]
