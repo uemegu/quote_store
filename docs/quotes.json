@@ -475,5 +475,14 @@
     "author": "エルザ・ヴォルフガング",
     "author_en": "Elsa Wolfgang",
     "image_path": "images/q-053.png"
+  },
+  {
+    "id": "q-054",
+    "date": "2026/5/19",
+    "text": "今日の小さな一歩が、明日の大きな笑顔の種になる。",
+    "english": "Today's small step is the seed for tomorrow's big smile.",
+    "author": "陽向 奏",
+    "author_en": "Kanade Hinata",
+    "image_path": "images/q-054.png"
   }
 ]
