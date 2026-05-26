@@ -520,5 +520,14 @@
     "author": "暁 遥斗",
     "author_en": "Haruto Akatsuki",
     "image_path": "images/q-058.png"
+  },
+  {
+    "id": "q-059",
+    "date": "2026/5/26",
+    "text": "今日という日は、あなたが描く最高の物語の、最初の1ページにすぎない。",
+    "english": "Today is merely the first page of the greatest story you will ever write.",
+    "author": "エリス・ブライトウェル",
+    "author_en": "Ellis Brightwell",
+    "image_path": "images/q-059.png"
   }
 ]
