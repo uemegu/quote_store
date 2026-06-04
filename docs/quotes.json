@@ -583,5 +583,14 @@
     "author": "暁 遥斗",
     "author_en": "Haruto Akatsuki",
     "image_path": "images/q-065.png"
+  },
+  {
+    "id": "q-066",
+    "date": "2026/6/4",
+    "text": "朝日が昇るたびに、世界は新しく生まれ変わる。あなたもまた、何度でも新しくなれる。",
+    "english": "Every time the sun rises, the world is reborn. You, too, can become new as many times as you wish.",
+    "author": "アリス・エバーグロウ",
+    "author_en": "Alice Everglow",
+    "image_path": "images/q-066.png"
   }
 ]
