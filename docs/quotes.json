@@ -592,5 +592,14 @@
     "author": "アリス・エバーグロウ",
     "author_en": "Alice Everglow",
     "image_path": "images/q-066.png"
+  },
+  {
+    "id": "q-067",
+    "date": "2026/6/5",
+    "text": "今日という日は、あなたの未来を彩るための最初の一筆である。",
+    "english": "Today is the first stroke of the brush to color your future.",
+    "author": "エルドラ・ルミナス",
+    "author_en": "Eldora Luminous",
+    "image_path": "images/q-067.png"
   }
 ]
