@@ -15,7 +15,7 @@ export async function generateImage(apiKey, quoteText, savePath) {
   }
 
   const ai = new GoogleGenAI({ apiKey });
-  const modelName = 'gemini-3.1-flash-image-preview';
+  const modelName = 'gemini-3.1-flash-image';
   
   const prompt = `
 格言にあわせた画像を作ってください 。
