@@ -601,5 +601,14 @@
     "author": "エルドラ・ルミナス",
     "author_en": "Eldora Luminous",
     "image_path": "images/q-067.png"
+  },
+  {
+    "id": "q-068",
+    "date": "2026/6/6",
+    "text": "昨日の後悔も、明日の不安も、今日の一歩が光に変えていく。",
+    "english": "Yesterday's regrets and tomorrow's anxieties are transformed into light by the single step you take today.",
+    "author": "陽光 結城",
+    "author_en": "Yoko Yuki",
+    "image_path": "images/q-068.png"
   }
 ]
