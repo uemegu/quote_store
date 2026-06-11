@@ -646,5 +646,14 @@
     "author": "蒼井 凪",
     "author_en": "Nagi Aoi",
     "image_path": "images/q-072.png"
+  },
+  {
+    "id": "q-073",
+    "date": "2026/6/11",
+    "text": "「昨日」は塗り替えられなくても、「今日」というキャンバスは真っ白なままだ。",
+    "english": "You cannot repaint yesterday, but the canvas called 'today' remains pure white.",
+    "author": "リナ・ソラノ",
+    "author_en": "Lina Solano",
+    "image_path": "images/q-073.png"
   }
 ]
