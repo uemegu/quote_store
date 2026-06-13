@@ -664,5 +664,14 @@
     "author": "レナード・ホライゾン",
     "author_en": "Leonard Horizon",
     "image_path": "images/q-074.png"
+  },
+  {
+    "id": "q-075",
+    "date": "2026/6/13",
+    "text": "今日という日は、あなたが未来に贈る最高のプレゼントである。",
+    "english": "Today is the greatest gift you give to your future self.",
+    "author": "星野 悠真",
+    "author_en": "Yuma Hoshino",
+    "image_path": "images/q-075.png"
   }
 ]
