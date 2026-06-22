@@ -718,5 +718,14 @@
     "author": "蒼井 晴人",
     "author_en": "Haruto Aoi",
     "image_path": "images/q-080.png"
+  },
+  {
+    "id": "q-081",
+    "date": "2026/6/22",
+    "text": "今日の小さき一歩が、明日の大きな道へと続く地図になる。",
+    "english": "Today's small step becomes the map leading to tomorrow's grand path.",
+    "author": "エルヴィン・サザランド",
+    "author_en": "Elvin Sutherland",
+    "image_path": "images/q-081.png"
   }
 ]
