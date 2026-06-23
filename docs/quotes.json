@@ -727,5 +727,14 @@
     "author": "エルヴィン・サザランド",
     "author_en": "Elvin Sutherland",
     "image_path": "images/q-081.png"
+  },
+  {
+    "id": "q-082",
+    "date": "2026/6/23",
+    "text": "昨日の自分に勝つ必要はない。ただ、今日の自分を昨日の自分より少しだけ好きになればいい。",
+    "english": "You don't need to defeat who you were yesterday. Just try to like who you are today a little bit more than yesterday.",
+    "author": "成瀬 陽葵",
+    "author_en": "Hinari Naruse",
+    "image_path": "images/q-082.png"
   }
 ]
