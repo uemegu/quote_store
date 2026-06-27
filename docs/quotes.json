@@ -763,5 +763,14 @@
     "author": "エルナ・ルミナス",
     "author_en": "Elna Luminous",
     "image_path": "images/q-085.png"
+  },
+  {
+    "id": "q-086",
+    "date": "2026/6/27",
+    "text": "今日という一歩が、明日のあなたを形作る。",
+    "english": "The single step you take today shapes the person you will be tomorrow.",
+    "author": "暁 遥斗",
+    "author_en": "Haruto Akatsuki",
+    "image_path": "images/q-086.png"
   }
 ]
