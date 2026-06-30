@@ -790,5 +790,14 @@
     "author": "エリアス・ノア",
     "author_en": "Elias Noah",
     "image_path": "images/q-088.png"
+  },
+  {
+    "id": "q-089",
+    "date": "2026/6/30",
+    "text": "小さな一歩が、今日という真っ白なキャンバスを彩る唯一の筆になる。",
+    "english": "A small step is the only brush that colors the blank canvas of today.",
+    "author": "晴山 陽斗",
+    "author_en": "Akito Haruyama",
+    "image_path": "images/q-089.png"
   }
 ]
