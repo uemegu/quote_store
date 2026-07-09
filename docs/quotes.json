@@ -844,5 +844,14 @@
     "author": "暁 勇介",
     "author_en": "Yusuke Akatsuki",
     "image_path": "images/q-094.png"
+  },
+  {
+    "id": "q-095",
+    "date": "2026/7/9",
+    "text": "新しい朝は、昨日までの自分を超えていくための、最初のチャンスだ。",
+    "english": "A new morning is the first chance to surpass who you were yesterday.",
+    "author": "エル・ビゼン",
+    "author_en": "L. Vizen",
+    "image_path": "images/q-095.png"
   }
 ]
