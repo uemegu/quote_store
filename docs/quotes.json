@@ -871,5 +871,14 @@
     "author": "暁 遥斗",
     "author_en": "Haruto Akatsuki",
     "image_path": "images/q-097.png"
+  },
+  {
+    "id": "q-098",
+    "date": "2026/7/12",
+    "text": "今日という真っ白なキャンバスに、あなただけの一歩を鮮やかに描きなさい。",
+    "english": "Paint your own unique step vividly on the blank canvas of today.",
+    "author": "陽だまりの哲学者、エル・ノア",
+    "author_en": "El Noah, Philosopher of Sunbeams",
+    "image_path": "images/q-098.png"
   }
 ]
