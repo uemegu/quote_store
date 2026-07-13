@@ -880,5 +880,14 @@
     "author": "陽だまりの哲学者、エル・ノア",
     "author_en": "El Noah, Philosopher of Sunbeams",
     "image_path": "images/q-098.png"
+  },
+  {
+    "id": "q-099",
+    "date": "2026/7/13",
+    "text": "今日という日は、あなたの未来が「ありがとう」と言いに来るための第一歩だ。",
+    "english": "Today is the first step for your future self to come and say 'thank you'.",
+    "author": "志良堂 陽介",
+    "author_en": "Yosuke Shirado",
+    "image_path": "images/q-099.png"
   }
 ]
