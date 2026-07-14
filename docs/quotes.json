@@ -889,5 +889,14 @@
     "author": "志良堂 陽介",
     "author_en": "Yosuke Shirado",
     "image_path": "images/q-099.png"
+  },
+  {
+    "id": "q-100",
+    "date": "2026/7/14",
+    "text": "今日の小さな一歩は、明日の自分を照らす一番の光になる。",
+    "english": "Today's small step will become the brightest light to illuminate your future self.",
+    "author": "セレナ・ルミナス",
+    "author_en": "Selena Luminous",
+    "image_path": "images/q-100.png"
   }
 ]
