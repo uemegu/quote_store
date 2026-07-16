@@ -907,5 +907,14 @@
     "author": "蒼井 陽真",
     "author_en": "Haruma Aoi",
     "image_path": "images/q-101.png"
+  },
+  {
+    "id": "q-102",
+    "date": "2026/7/16",
+    "text": "今日の一歩は、未来の自分への最高の贈り物になる。",
+    "english": "Today's small step will be the greatest gift to your future self.",
+    "author": "エレン・ミライ",
+    "author_en": "Ellen Mirai",
+    "image_path": "images/q-102.png"
   }
 ]
