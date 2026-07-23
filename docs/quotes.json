@@ -961,5 +961,14 @@
     "author": "ルミナ・ステラ",
     "author_en": "Lumina Stella",
     "image_path": "images/q-107.png"
+  },
+  {
+    "id": "q-108",
+    "date": "2026/7/23",
+    "text": "昨日の自分を褒め、今日の自分を信じ、明日の自分に期待しよう。",
+    "english": "Honor who you were yesterday, trust who you are today, and welcome who you will be tomorrow.",
+    "author": "晴山 紡",
+    "author_en": "Tsumugi Hareyama",
+    "image_path": "images/q-108.png"
   }
 ]
